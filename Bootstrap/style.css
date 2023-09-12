@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'IBM+Plex+Sans',sans-serif;
+}
+    section{
+        min-height: 10vh;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+
+
+/*-------------navbar------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+.bold{
+    font-size: 27px;
+}
+li{
+    padding: 4px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+/*---------------home----------*/
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 17px;
+}
+
+/*---------services----------*/
+.card img{
+    height: 150px;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+transform: scale(1.5);
+transition: 1s;
+}
+
+
+/*------contact----*/
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2),
+                -1px -1px 4px rgba(0,0,0,.05);
+    border-radius: 30px ;
+                
+      
+} 
